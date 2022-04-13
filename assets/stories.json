@@ -1,0 +1,105 @@
+{
+    "rose-mueseum": {
+        "death": false,
+        "ending": false,
+        "text": "You are working at a mueseum late at night.\nAll of a sudden, the doors shut closed. You run over and pound, but you're locked in. Escape.",
+        "next": {
+            "options": {
+                "A": "Call for help on the radio",
+                "B": "Find an alternate exit",
+                "C": "Find one of the guards.",
+                "D": "Cry like a wimp"
+            },
+            "results": {
+                "A": {
+                    "text": "No response, just weird static.",
+                    "death": false,
+                    "ending": false,
+                    "next": {
+                        "options": {
+                            "A": "",
+                            "B": "",
+                            "C": "",
+                            "D": ""
+                        },
+                        "results": {
+                            "A": {
+                                "text": "",
+                                "death": false,
+                                "ending": false,
+                                "next": {}
+                            }
+                        }
+                    }
+                },
+                "B": {
+                    "text": "You run to the second floor and that door is also locked. Bummer.",
+                    "death": false,
+                    "ending": false,
+                    "next": {
+                        "options": {},
+                        "results": {}
+                    }
+                },
+                "C": {
+                    "text": "You run to the secruity room only to find a corpse of the dead guard. As you stare in shock you hear a noise behind you.",
+                    "death": false,
+                    "ending": false,
+                    "next": {
+                        "options": {
+                            "A": "Do nothing and stare at the corpse",
+                            "B": "Take the guards pistol and investigate",
+                            "C": "Make your voice deep and menacing.",
+                            "D": "Hide."
+                        },
+                        "results": {
+                            "A": {
+                                "text": "You all of a sudden feel a huge pain in your chest, and you realize that there is a 5 foot blade inserted in your chest. You only stayed alive long enough to turn around and see the man who killed you. You die in disbelief and terror.",
+                                "death": true,
+                                "ending": true,
+                                "ending-name": "Stoopid idiot why u die to blade"
+                            },
+                            "B": {
+                                "text": "As you walk out with pistol in hand you see the culprit. A man in a black jacket with a 5 foot blade. You shoot just left of his heart and run over to him. You hear him chant a curse before he closes his eyes, and you just realized what he just did. You are now trapped forever in the museum.",
+                                "death": false,
+                                "ending": true,
+                                "ending-name": "Trapped For Eternity"
+                            },
+                            "C": {
+                                "text": "You thought you sounded stupid, but you see a guy in a black jacket run to you crying with his hands in the air. He begs you to spare him. You, confused, walk over to him and you demand the reason he is locked in with the reason being: I wanted to kill people. He unlocks the door and you run away from the museum, never to return again.",
+                                "death": false,
+                                "ending": true,
+                                "ending-name": "DEEPfake"
+                            },
+                            "D": {
+                                "text": "If you want to hide, you better pick your spot quick. You hear the sound approaching.",
+                                "death": false,
+                                "ending": false,
+                                "next": {
+                                    "options": {
+                                        "A": "Bathroom stall",
+                                        "B": "Dumpster",
+                                        "C": "Vent"
+                                    
+                                    },
+                                    "results": {
+                                        "A": {
+                                            "text": "You hurry into a bathroom stall and stand on the toilet seat. You hear footsteps enter the bathroom and by some chance, they did the number 2 right next to your stall. He leaves and you wait for a while.",
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "D": {
+                    "text": "You cry and your tears floods the entire museum. The entire museum blows up and you fly out of the museum. By some miracle you land on a plane passing by.",
+                    "death": false,
+                    "ending": true,
+                    "ending-name": "The Cry Baby"
+                }
+            }
+        }
+    }
+}

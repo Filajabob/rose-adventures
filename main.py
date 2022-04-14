@@ -30,25 +30,28 @@ while True:
     for line in story["text"].split('\n'):
         if story["death"]:
             print(Constants.RED + line)
+            time.sleep(1)
             
         else:
             print(Constants.PURPLE + line + Constants.WHITE)
 
-        time.sleep(1)
+        time.sleep(2)
             
     print("")
 
     if story["ending"]:
         print(f"{Constants.PURPLE}Ending: {story['ending-name']}{Constants.WHITE}")
+        time.sleep(2)
         break
 
     for key, value in story["next"]["options"].items():
         print(f"{Constants.PURPLE}{key}: {Constants.CYAN}{value}")
-        time.sleep(1)
+        time.sleep(2)
 
     print("")
 
     choice = input("Choice: ")
+    time.sleep(2)
 
     if not choice in story["next"]["options"]:
         print(f"{Constants.RED}That is not an option.{Constants.WHITE}\n")

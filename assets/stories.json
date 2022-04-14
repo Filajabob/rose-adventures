@@ -17,17 +17,128 @@
                     "ending": false,
                     "next": {
                         "options": {
-                            "A": "",
-                            "B": "",
-                            "C": "",
-                            "D": ""
+                            "A": "Walk around the mueseum",
+                            "B": "Have some fun",
+                            "C": "Just die"
                         },
                         "results": {
                             "A": {
-                                "text": "",
-                                "death": false,
+                                "text": "You walk around, until all of a sudden you see a man in a black jacket pounce on you. The last thing you saw before your quick death was that the killer was *********************",
+                                "death": true,
+                                "ending": true,
+                                "ending-name": "Why you have to walk around?"
+                            },
+                            "B": {
+                                "text": "You can't have fun idiot, you were making childish sounds and some weird guy in a black jacket ate you.",
+                                "death": true,
+                                "ending": true,
+                                "ending-name": "sushi"
+                            },
+                            "C": {
+                                "text": "You die.",
+                                "death": true,
                                 "ending": false,
-                                "next": {}
+                                "next": {
+                                    "options": {
+                                        "A": "Die",
+                                        "ABCDEFGHIJKLMNOPQRSTUVWXYZ": "Go towards the light"
+                                    },
+                                    "results": {
+                                        "A": {
+                                            "text": "ded",
+                                            "death": true,
+                                            "ending": true,
+                                            "ending-name": "Try the other option - if you dare"
+                                        },
+                                        "ABCDEFGHIJKLMNOPQRSTUVWXYZ": {
+                                            "text": "You are consumed in light and warmth.",
+                                            "death": true,
+                                            "ending": false,
+                                            "next": {
+                                                "options": {
+                                                    "A": "Die",
+                                                    "IWILLNOTTYPETHISiwillnottypethisIWILLNOTTYPETHISiwillnottypethisIWILLTYPETHISiwilltypethis": "Go forward"
+                                                },
+                                                "results": {
+                                                    "A": {
+                                                        "text": "ded",
+                                                        "death": true,
+                                                        "ending": true,
+                                                        "ending-name": "Try the other option - if you dare"
+                                                    },
+                                                    "IWILLNOTTYPETHISiwillnottypethisIWILLNOTTYPETHISiwillnottypethisIWILLTYPETHISiwilltypethis": {
+                                                        "text": "You hear voices...",
+                                                        "death": true,
+                                                        "ending": false,
+                                                        "next": {
+                                                            "options": {
+                                                                "A": "Give up",
+                                                                "ihsus": "Push forward"
+                                                            },
+                                                            "results": {
+                                                                "A": {
+                                                                    "text": "ded",
+                                                                    "death": true,
+                                                                    "ending": true,
+                                                                    "ending-name": "Try the other option - if you dare"
+                                                                },
+                                                                "ihsus": {
+                                                                    "text": "voices... something about s$^%&^#^i",
+                                                                    "death": true,
+                                                                    "ending": false,
+                                                                    "next": {
+                                                                        "options": {
+                                                                            "A": "IT'S NOT WORTH IT",
+                                                                            "JFJBHF^fne&j329Bfvsbkhjelvgyuied653bjdho3btk&n3(nbe!khfe)8.306623863292": "A little bit more..."
+                                                                        },
+                                                                        "results": {
+                                                                            "A": {
+                                                                                "text": "ded",
+                                                                                "death": true,
+                                                                                "ending": true,
+                                                                                "ending-name": "Try the other option - if you dare"
+                                                                            },
+                                                                            "JFJBHF^fne&j329Bfvsbkhjelvgyuied653bjdho3btk&n3(nbe!khfe)8.306623863292": {
+                                                                                "text": "Something holds you back...",
+                                                                                "death": true,
+                                                                                "ending": false,
+                                                                                "next": {
+                                                                                    "options": {
+                                                                                        "A": "Stop and die"
+                                                                                    },
+                                                                                    "results": {
+                                                                                        "A": {
+                                                                                            "text": "ju i*t c*fo diptf* *if s*tf nvt* gjo*t*i u*f jousvtjpo",
+                                                                                            "death": false,
+                                                                                            "ending": false,
+                                                                                            "next": {
+                                                                                                "options": {
+                                                                                                    "I WILL NOT DIE": "I WILL NOT DIE"
+                                                                                                },
+                                                                                                "results": {
+                                                                                                    "I WILL NOT DIE": {
+                                                                                                        "text": "sushi lover... grade seven teacher... roses.. oh roses...",
+                                                                                                        "death": true,
+                                                                                                        "ending": true,
+                                                                                                        "ending-name": "Roses"
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -84,8 +195,71 @@
                                     },
                                     "results": {
                                         "A": {
-                                            "text": "You hurry into a bathroom stall and stand on the toilet seat. You hear footsteps enter the bathroom and by some chance, they did the number 2 right next to your stall. He leaves and you wait for a while."
+                                            "text": "You hurry into a bathroom stall and stand on the toilet seat. You hear footsteps enter the bathroom and by some chance, they did the number 2 right next to your stall. He leaves and you wait for a while.",
+                                            "death": false,
+                                            "ending": false,
+                                            "next": {
+                                                "options": {
+                                                    "A": "Stay",
+                                                    "B": "Disguise",
+                                                    "C": "Trash Can",
+                                                    "D": "Bed"
+                                                
 
+                                                },
+                                                "results": {
+                                                    "A": {
+                                                        "text": "You wait for 30 more minutes. All of a sudden, a man walks in and bangs on the stalls. Eventually he breaks through the stalls and takes you to his basement. No one knows what happens next.",
+                                                        "death": true,
+                                                        "ending": true,
+                                                        "ending-name": "Captured"
+                                                    
+                                                    },
+                                                    "B": {
+                                                        "text": "You put on a weird suit and tie and walk out. Unfortunately, you're an idiot and realized a bit to late that he's a killer and killers kill everybody.",
+                                                        "death": true,
+                                                        "ending": true,
+                                                        "ending-name": "Killed by Killer who Kills Everybody"
+
+
+                                                    },
+                                                    "C": {
+                                                        "text": "You jump in the trash can, the smell was horrendus but it did the job. You hide for a good 20 minutes and you might want to consider moving spots.",
+                                                        "death": false,
+                                                        "ending": false,
+                                                        "next": {
+                                                            "options": {
+                                                                "A": "Stay",
+                                                                "B": "Second Floor"
+                                                            },
+                                                            "results": {
+                                                                "A": {
+                                                                    "text": "You stay in the trash can until the smell is just too much, you make a small sound and the killer finds you and eats the entire trash can.",
+                                                                    "death": true,
+                                                                    "ending": true,
+                                                                    "ending-name": "Eaten"
+                                                                },
+                                                                "B": {
+                                                                    "text": "You move to the second floor and have 3 options for hiding.",
+                                                                    "death": false,
+                                                                    "ending": false,
+                                                                    "next": {
+                                                                        "options": {
+                                                                            "A": "Janitors Closet",
+                                                                            "B": "Painting",
+                                                                            "C": "Office"
+                                                                        },
+                                                                        "results": {
+                                                                            "A": {
+                                                                           }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
                                 }
